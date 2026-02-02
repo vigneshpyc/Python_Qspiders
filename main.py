@@ -16,3 +16,12 @@ print(type(c))
 e = True
 print(bool('string'))
 print(type(str(e)))
+
+l = [10,20]
+print(set(l))
+print(tuple(l))
+#print(dict(l))
+s = "vicky"
+print(list(s))
+di = {0:'a',1:'b'}
+print(list(di))
