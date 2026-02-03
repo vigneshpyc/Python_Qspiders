@@ -25,3 +25,12 @@ s = "vicky"
 print(list(s))
 di = {0:'a',1:'b'}
 print(list(di))
+
+
+#convert tuple into other datatypes
+t = ('py', ['python', 'django'], ('db','sql'), {25, 10})
+print("tupple into list -> ",list(t))
+print("tuple into dictionary -> ",dict(t))
+print("tuple into boolean -> ",bool(t))
+print("tuple into string -> ",str(t))
+# print("tuple into set -> ", set(t)) -> error can not convert into tuple into set
